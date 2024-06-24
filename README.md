@@ -109,3 +109,34 @@ Descripcion: Express es un framework web para Node.js que proporciona un conjunt
 Razón de uso: Express se utiliza internamente en NestJS para manejar solicitudes HTTP.
 Enlace: https://expressjs.com/
 Instalacion: npm install express
+
+## Pasos para levantar el proyecto
+
+1. Instalar o actualizar Nodejs
+2. Instalar este generador de proyectos o programas de consola
+
+$ npm i @nestjs/cli -g
+
+3. Clonar el repositorio
+
+git clone https://github.com/tu-usuario/nestfirstapp.git
+
+4. Instalar las librerias utilizadas
+   npm install @nestjs/core @nestjs/common @nestjs/cli
+   npm install @nestjs/swagger swagger-ui-express
+   npm install jsonwebtoken
+   npm install class-validator class-transformer
+   npm install uuid
+   npm install express
+
+5. Iniciar la aplicacion
+   npm run start
+
+6. Si en el caso hay algun problema con el prettier/eslintrc, agregar dentro de el archivo .eslintrc.js , en la seccion de rules:
+
+   "prettier/prettier": [
+   "error",
+   {
+   "endOfLine": "auto"
+   }
+   ]
