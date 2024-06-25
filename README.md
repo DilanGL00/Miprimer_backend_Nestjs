@@ -115,11 +115,11 @@ Instalacion: npm install express
 1. Instalar o actualizar Nodejs
 2. Instalar este generador de proyectos o programas de consola
 
-$ npm i @nestjs/cli -g
+   $ npm i @nestjs/cli -g
 
 3. Clonar el repositorio
 
-git clone https://github.com/tu-usuario/nestfirstapp.git
+   git clone https://github.com/DilanGL00/Miprimer_backend_Nestjs.git
 
 4. Instalar las librerias utilizadas
    npm install @nestjs/core @nestjs/common @nestjs/cli
