@@ -112,31 +112,21 @@ Instalacion: npm install express
 
 ## Pasos para levantar el proyecto
 
-1. Instalar o actualizar Nodejs
-2. Instalar este generador de proyectos o programas de consola
+- 1. Instalar o actualizar Nodejs y git
+- 2. Clonar el repositorio
 
-   $ npm i @nestjs/cli -g
+```bash
+$ git clone https://github.com/DilanGL00/Miprimer_backend_Nestjs.git
+```
 
-3. Clonar el repositorio
+- 3. Instalacion de todas las librerias ubicadas en el package.json
 
-   git clone https://github.com/DilanGL00/Miprimer_backend_Nestjs.git
+```bash
+$ npm install
+```
 
-4. Instalar las librerias utilizadas
-   npm install @nestjs/core @nestjs/common @nestjs/cli
-   npm install @nestjs/swagger swagger-ui-express
-   npm install jsonwebtoken
-   npm install class-validator class-transformer
-   npm install uuid
-   npm install express
+- 4. Iniciar la aplicacion
 
-5. Iniciar la aplicacion
-   npm run start
-
-6. Si en el caso hay algun problema con el prettier/eslintrc, agregar dentro de el archivo .eslintrc.js , en la seccion de rules:
-
-   "prettier/prettier": [
-   "error",
-   {
-   "endOfLine": "auto"
-   }
-   ]
+```bash
+$ npm run start
+```
